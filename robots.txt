@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://llama-swap.github.io/sitemap.xml

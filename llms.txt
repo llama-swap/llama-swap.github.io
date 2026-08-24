@@ -1,0 +1,25 @@
+# Llama Swap — DEX Meta-Aggregator Reference
+
+> A DEX meta-aggregator that compares quotes across many DEX aggregators and DEXs to find the best output (most tokens received) for a swap, net of gas. Non-custodial — your wallet signs. Independent, not affiliated with DefiLlama.
+
+## Key Facts
+- Concept: DEX meta-aggregator — compares quotes across many aggregators and DEXs, picks the route with the best net output after gas
+- Custody: non-custodial — Llama Swap builds the route/transaction; your wallet signs and no operator holds funds
+- Chains: works across EVM chains; gas is paid in the chain's native coin
+- Costs: pool and DEX fees on the chosen route + network gas + price impact; ERC-20 spend needs a one-time approval
+- Surfaces price impact, slippage tolerance, pool/DEX fees and estimated gas before you sign
+- Common pairs: ETH <-> USDC / USDT and major tokens with on-chain liquidity
+- Independent resource — NOT affiliated with or endorsed by DefiLlama
+
+## Internal Sections & App Navigation
+- [What is Llama Swap?](#what)
+- [How swapping works](#how)
+- [How routing & aggregation works](#network)
+- [Tokens & pairs](#tokens)
+- [Fees, gas & price impact](#fees)
+- [Is it safe?](#safety)
+- [FAQ](#faq)
+- [Open Llama Swap App](dashboard/index.html)
+
+## Disclaimer
+Independent page. Not affiliated with or endorsed by DefiLlama. Not financial advice.

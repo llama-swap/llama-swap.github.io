@@ -1,0 +1,12 @@
+{
+  "name": "Llama Swap",
+  "short_name": "Llama Swap",
+  "description": "A DEX meta-aggregator that compares quotes across many aggregators and DEXs to find the best swap output, net of gas. Non-custodial. Not affiliated with DefiLlama.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "en",
+  "background_color": "#0a0e14",
+  "theme_color": "#0a0e14",
+  "icons": [{ "src": "eth.png", "sizes": "any", "type": "image/png", "purpose": "any" }]
+}
